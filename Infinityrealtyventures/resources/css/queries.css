@@ -1,0 +1,476 @@
+/* Big tablet to 1200px(widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+    h1 {
+        font-size: 400%;
+        margin-left: 60px;
+    }
+    
+    
+
+
+    .logo {
+        margin-left: 20px;
+        
+    }
+    
+    .sticky .logo-in {
+        margin-left: 20px;
+    
+}
+    
+    .main-nav {
+        margin-right: 20px;
+    }
+    
+    .box img {
+    
+    
+    
+    width: 100%;
+    height: 140px;
+    margin-bottom: 15px;
+    
+    
+}
+    
+    .service-box {
+    background-color: rgba(141, 200, 211, 0.26);
+    
+    
+    width: 100%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+    box-shadow: 0 3px 3px #3e969d;
+}
+    
+    .service-box h3 {
+        font-size: 70%;
+    }
+    
+    
+    
+    .section-about h2:after {
+    
+    margin-left: 55px;;  
+}
+
+    
+    .about-box img:last-child {
+        width: 110%;
+        height: 150vh;
+    }
+    
+    .projects-box h2 {
+        word-spacing: 185px;
+        
+    }
+    
+    .beg {
+    text-align: center;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    
+        }
+}
+    
+
+    
+
+
+    
+
+    
+ 
+
+
+
+
+/* Small tablet to big tablet: from 767 to 1023 */
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 17px; }
+    section { padding: 60px 0; }
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        margin-left: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    h1 {
+        font-size: 300%;
+        margin-left: 230px;
+    }
+    
+    h2 {
+        font-size: 250%;
+    }
+    
+    .service-box h3 {
+        font-size: 60%;
+        margin-right: 10px;
+        
+    }
+    
+    .sticky .logo-in {
+        margin-left: 18px;
+    
+}
+
+    
+    .box img {
+    
+    
+    
+    width: 100%;
+    height: 80px;
+    margin-bottom: 9px;
+    
+    
+}
+
+
+    .service-box {
+    background-color: rgba(141, 200, 211, 0.26);
+    
+    
+    width: 100%;
+    height: 200px;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+    
+    box-shadow: 0 3px 3px #3e969d;
+}
+    
+    .section-about h2 {
+    text-align: center;
+    padding-right: 80px;
+    margin-top: 80px;
+}
+
+
+    .section-about h2:after {
+        display: block;
+        height: 10px;
+        background-color: #1abc9c;
+        content: "";
+        width: 116px;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+}
+    
+    
+
+    
+    .about-box:first-child {
+    text-align: right;
+    padding-right: 4%;
+    
+    
+    float: left;
+    
+    
+    padding-bottom: 24px;
+    
+}
+    
+    .about-box img:last-child {
+    width: 98%;
+    height: 110vh;
+    
+    
+    
+    
+}
+    .about-box p {
+    text-align: left;
+    padding-left: 54px;
+    margin-top: 40px;
+    
+    font-style: italic;
+    line-height: 145%;
+    font-size: 15px;
+    font-weight: bold;    
+}
+    
+    .projects-box h2 {
+        
+    
+        
+        padding-left: 80px;
+        padding-right: 40px;
+        word-spacing: 100px;
+}
+    
+    .beg {
+        padding-right: 100px;
+    }
+
+    
+    
+    .projects-photo img {
+        height: 300px;
+    }
+    
+    .section-projects p {
+        padding-left: 70px;
+    }
+    
+    .section-testimonials {
+        height: 30vh;
+    }
+    
+    
+    .contacts-box iframe {
+    
+    padding-left: 80px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    margin-bottom: 80px;
+}
+    
+    .contacts-box h3 {
+        padding-left: 135px;
+        line-height: 30px;
+    }
+    
+    .contacts-box p {
+        padding-left: 140px;
+        line-height: 30px;
+        font-size: 90%;
+    
+    
+}
+    
+    .p-box {
+    padding-bottom: 10px;
+}
+    
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 200%;
+        padding: 6px;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        margin-left: 30px;
+        margin-right: 10px;
+
+        display: inline-block;
+        padding-left: 10px;
+}
+    
+    
+    
+    
+
+
+
+
+/* Small phones to Small tablets: from 481 to 767 pixels */
+@media only screen and (max-width: 767px) {
+    
+  
+    body { font-size: 16px;  }
+    section { padding: 30px 0; }
+    .row,
+    .hero-text-box { padding: 5% 5%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 3% 0;
+        
+        
+    }
+    
+    .logo {
+        margin-left: 0;
+        
+    }
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    h1 {
+        
+        margin-left: 350px;
+        
+    }
+    
+    h2:after {
+        width: 60px;
+    }
+   
+    
+    .main-nav { display: none; }
+    
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    
+    
+    
+    
+    .service-box h3 {
+    font-size: 75%;
+    
+}
+    
+    .box img {
+    
+    
+    
+    width: 100%;
+    height: 190px;
+        
+    
+    
+}
+    
+    .service-box {
+    background-color: rgba(141, 200, 211, 0.26);
+    
+    
+    
+    width: 60%;
+    height: 200%;
+    
+    margin-left: 140px;
+    margin-right: 190px;
+    
+    
+}
+    
+    .section-about h2 {
+        text-align: center;
+        margin-left: 110px;
+    }
+    
+    .section-about h2:after {
+        
+        display: block;
+        height: 10px;
+        background-color: #1abc9c;
+        content: "";
+        width: 50px;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+    }
+    
+    .about-box p {
+        text-align: justify;
+    }
+    
+    .about-box img:last-child {
+    width: 100%;
+    height: 40vh;   
+}
+    
+    
+    
+    
+    
+    .projects-box h2 {
+        word-spacing: 20px;
+        padding-bottom: 10px;
+        display: block;
+       
+       
+    }
+    
+    .beg {
+        padding-right: 0px;
+           
+    }
+    
+    .projects-photo img {
+        
+        
+        
+        margin-left: 150px;
+    }
+    
+    .section-projects p {
+        
+        text-align: right;
+    }
+    
+    .section-testimonials {
+        height: 20vh;
+    }
+    
+    .contacts-box iframe {
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        height: 200px;
+}
+    
+    .contacts-box div h3 {
+        padding-top: 0;
+    
+}
+    
+    
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 150%;
+        padding: 4px;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        margin-left: 0px;
+        margin-right: 30px;
+
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    }
+    
+    
+    
+     
+
+
+
+/* Small phones: from 0 to 480 pixels */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+    
+}
+   
