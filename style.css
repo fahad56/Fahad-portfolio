@@ -1,0 +1,21 @@
+* {
+    background-color: coral;
+}
+
+.anchor {
+    font-weight: normal;
+    color: black;
+}
+
+.hr {
+    background-color: black;
+}
+
+.personal {
+    color: darkred;
+}
+
+.site {
+    height: 150px;
+    width: 195px;
+}
