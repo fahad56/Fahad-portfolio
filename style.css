@@ -23,3 +23,11 @@
 #main {
     color: rgb(157, 31, 37);
 }
+
+html {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Sigmar', cursive;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+}
