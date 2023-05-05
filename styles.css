@@ -28,7 +28,15 @@
     color: rgb(157, 31, 37);
 }
 
-h1, h3 {
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Sigmar', cursive;
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+h3 {
     font-family: 'Kanit', sans-serif;
     font-family: 'Sigmar', cursive;
     font-size: 1rem;
