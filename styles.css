@@ -36,6 +36,12 @@ body {
     
 }
 
+.Fahad {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
 #main {
     color: rgb(157, 31, 37);
     text-align: center;
