@@ -1,14 +1,20 @@
-* {
+body {
     background-color: aliceblue;
+}
+
+.container {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Sigmar',cursive;
+    
+    
 }
 
 .anchor {
     font-weight: normal;
     color: black;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Sigmar', cursive;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .hr {
@@ -17,31 +23,43 @@
 
 .personal {
     color: darkred;
+    font-size: 20pt;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .site {
-    height: 240px;
-    width: 240px;
+    height: 55%;
+    width: 55%;
 }
 
 #main {
     color: rgb(157, 31, 37);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-h1 {
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Sigmar', cursive;
+#main2 {
+    text-align: center;
     font-size: 2rem;
     font-weight: 900;
-    
 }
 
-h3 {
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Sigmar', cursive;
-    font-size: 20pt;
-    font-weight: 900;
+#main3 {
     text-align: center;
-    
+    font-size: 2rem;
+    font-weight: 900;
 }
 
+#main4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.footer {
+    text-transform: uppercase;
+}
