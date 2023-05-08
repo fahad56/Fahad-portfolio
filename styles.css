@@ -4,16 +4,20 @@ body {
 
 .container {
     font-family: 'Libre Baskerville', serif;
+    position: relative;
+    
     
     
 }
 
 .anchor {
+    
     font-weight: normal;
     color: black;
     font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
+    position: relative;
 }
 
 .hr {
@@ -26,12 +30,15 @@ body {
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .site {
+    display: inline-block;
     height: 55%;
     width: 55%;
     border: 1px solid black;
+    position: relative;
     
 }
 
@@ -47,23 +54,27 @@ body {
     font-size: 3rem;
     font-weight: 900;
     text-transform: uppercase;
+    
 }
 
 #main2 {
     
     font-size: 2rem;
     font-weight: 900;
+    display: block;
 }
 
 #main3 {
     font-size: 2rem;
     font-weight: 900;
+    
 }
 
 #main4 {
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
+    
 }
 
 .footer {
