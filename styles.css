@@ -336,7 +336,7 @@ h1 {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
-    margin-left: 10%;
+    
 }
 
 h2 {
@@ -484,7 +484,8 @@ input[type=submit] {
     border: 1px solid #e67e22;
     color: #fff;
     margin-right: 15px;
-    margin-left: 110px;
+    
+    
 }
 
 .btn-ghost:link,
@@ -533,7 +534,6 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    margin-right: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
